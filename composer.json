@@ -1,0 +1,23 @@
+{
+    "name": "devleaks/yii2-introjs",
+    "description": "Yii2 asset bundle wrapper around introjs library",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","introjs","webtour","help"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre M",
+            "email": "devleaks.be@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+        "yiisoft/yii2-bootstrap": "*",
+        "usablica/intro.js": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "devleaks\\introjs\\": ""
+        }
+    }
+}
