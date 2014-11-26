@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class IntroJSAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/usablica/intro.js/minified';
+    public $sourcePath = '@vendor/bower/intro.js/minified';
 
     public $css = [
         'introjs.min.css',
@@ -26,6 +26,6 @@ class IntroJSAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
+        'yii\web\JqueryAsset',
     ];
 }
