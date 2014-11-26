@@ -13,12 +13,8 @@
     "require": {
         "yiisoft/yii2": "*"
         "yiisoft/yii2-bootstrap": "*",
+		"bower-asset/intro.js"
     },
-    "extra": {
-        "require-bower": {
-        	"usablica/intro.js": "*"
-        }
-    }
     "autoload": {
         "psr-4": {
             "devleaks\\introjs\\": ""
