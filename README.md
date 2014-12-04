@@ -31,6 +31,5 @@ Once the extension is installed, simply use it in your code by  :
 <?php
 use devleaks\introjs\IntroJSAsset;
 
-IntroJS::register($this);
+IntroJSAsset::register($this);
 
-?>```
