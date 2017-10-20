@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  */
 class IntroJSAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/intro.js/minified';
+    public $sourcePath = '@bower/intro.js/minified';
 
     public $css = [
         'introjs.min.css',
